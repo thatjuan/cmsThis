@@ -1,0 +1,75 @@
+.alt_fragment_hint {
+    background:transparent url('../images/pencil_go_faded.png') no-repeat right top;
+}
+
+.alt_fragment_hint:hover {
+    background:transparent url('../images/pencil_go.png') no-repeat right top;
+    outline: 1px dotted #cccccc;
+    outline-offset: 10px; 
+    cursor:text;
+}
+
+.alt_fragment_editing {
+    outline: 1px dotted #cccccc;
+    outline-offset: 10px; 
+    cursor:text;
+}
+
+.alt_fragment_toolbar {
+    z-index: 100;
+    position: absolute;
+    border: 1px solid #dbdbdb;
+    min-width: 55px;
+    height: 24px;
+
+    background-color: #FFF;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 1px 1px 1px 1px #dbdbdb;
+    -moz-box-shadow: 1px 1px 1px 1px #dbdbdb;
+    box-shadow: 1px 1px 1px 1px #dbdbdb;
+}
+
+.alt_fragment_toolbar .button_left, .button_right {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border:none;
+    margin-top: 4px;
+}
+
+.alt_fragment_toolbar .button_left {
+    float:left;
+}
+
+.alt_fragment_toolbar .button_left:last-child {
+    margin-right: 15px;
+}
+
+.alt_fragment_toolbar .button_right {
+    float:right;
+}
+
+.alt_fragment_toolbar .icon_text_bold {
+    background:url('../images/text_bold.png') no-repeat;
+}
+
+.alt_fragment_toolbar .icon_text_italic {
+    background:url('../images/text_italic.png') no-repeat;
+}
+
+.alt_fragment_toolbar .icon_accept {
+    background:url('../images/accept.png') no-repeat;
+}
+
+.alt_fragment_toolbar .icon_cancel {
+    background:url('../images/cancel.png') no-repeat;
+}
+
+.alt_fragment_toolbar .icon_arrow_rotate_anticlockwise {
+    background:url('../images/arrow_rotate_anticlockwise.png') no-repeat;
+}
+
