@@ -8,8 +8,6 @@
 
     $.cmsThis = function(el, options) {
 
-        console.debug('el', el);
-
         // plugin's default options
         var defaults = {
             
@@ -135,7 +133,7 @@
             // signal that content has changed
                 $(plugin.el).bind( 'keyup.' + plugin.uid + '_stateKeeper', function(){
 
-                    plugin.content_has_changed = true;console.debug('checked');
+                    plugin.content_has_changed = true;
 
                     $(this).unbind( 'keyup.' + plugin.uid + '_stateKeeper' );
 
@@ -314,7 +312,7 @@
                                 exitEditMode();
                                 initHint();
                             } else {
-                                console.log('error saving.');
+                                alert( 'Could not save at this time' );
                             }
 
                         });
